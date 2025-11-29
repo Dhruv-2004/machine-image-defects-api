@@ -1,0 +1,8 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+inference_sdk
+supervision
+opencv-python-headless
+numpy
+matplotlib
+cloudinary
