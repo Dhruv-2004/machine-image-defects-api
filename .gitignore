@@ -1,85 +1,11 @@
-# ---------------------------------------
-# Python
-# ---------------------------------------
 __pycache__/
-*.py[cod]
 *.pyc
-*.pyo
-*.pyd
-*.so
-*.egg
+.env
+*.db
+.DS_Store
 *.egg-info/
 dist/
 build/
-*.spec
-
-# ---------------------------------------
-# Virtual Environment
-# ---------------------------------------
-venv/
-env/
-.venv/
-
-# ---------------------------------------
-# OS / Editor Junk
-# ---------------------------------------
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.idea/
-.vscode/
+tmp*
 *.log
-
-# ---------------------------------------
-# Environment / Secrets (VERY IMPORTANT)
-# Do not commit secrets such as API keys
-# ---------------------------------------
-.env
-*.env
-.env.*
-*.key
-*.secret
-*credentials*
-*token*
-
-# ---------------------------------------
-# Temporary & Generated Files
-# ---------------------------------------
-tmp/
-tmp_*/
-temp/
-*.tmp
-*.bak
-*.old
-
-# matplotlib / images
-*.png
-*.jpg
-*.jpeg
-
-# cloudinary uploads (if stored locally temporarily)
-upload_*
-img_res.*
-
-# ---------------------------------------
-# Other language / misc
-# ---------------------------------------
-*.db
-*.sqlite3
-*.sqlite
-*.csv
-
-# ---------------------------------------
-# Jupyter
-# ---------------------------------------
-.ipynb_checkpoints/
-*.ipynb
-
-# ---------------------------------------
-# Cache / Bytecode
-# ---------------------------------------
-.cache/
-.pytest_cache/
-pdm.lock
-pip-wheel-metadata/
+out*.png
