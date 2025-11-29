@@ -1,10 +1,85 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
 __pycache__/
+*.py[cod]
 *.pyc
-.env
-*.db
-.DS_Store
+*.pyo
+*.pyd
+*.so
+*.egg
 *.egg-info/
 dist/
 build/
-tmp*
+*.spec
+
+# ---------------------------------------
+# Virtual Environment
+# ---------------------------------------
+venv/
+env/
+.venv/
+
+# ---------------------------------------
+# OS / Editor Junk
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
 *.log
+
+# ---------------------------------------
+# Environment / Secrets (VERY IMPORTANT)
+# Do not commit secrets such as API keys
+# ---------------------------------------
+.env
+*.env
+.env.*
+*.key
+*.secret
+*credentials*
+*token*
+
+# ---------------------------------------
+# Temporary & Generated Files
+# ---------------------------------------
+tmp/
+tmp_*/
+temp/
+*.tmp
+*.bak
+*.old
+
+# matplotlib / images
+*.png
+*.jpg
+*.jpeg
+
+# cloudinary uploads (if stored locally temporarily)
+upload_*
+img_res.*
+
+# ---------------------------------------
+# Other language / misc
+# ---------------------------------------
+*.db
+*.sqlite3
+*.sqlite
+*.csv
+
+# ---------------------------------------
+# Jupyter
+# ---------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ---------------------------------------
+# Cache / Bytecode
+# ---------------------------------------
+.cache/
+.pytest_cache/
+pdm.lock
+pip-wheel-metadata/
